@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    background-image: url(../img/dominik-lange-VUOiQW4OeLI-unsplash\ 1.jpg);
+    background-size:cover ;
+    height: 1500px;
+   
+}
+form{
+    border: none;
+}
+
+
+.box-cabecalho{
+    background-color:rgba(216, 238, 156, 0.2);
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 25px;
+
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+
+}
+
+/* main */
+main{
+    background-color: #DAE3C4;
+}
+
+.box-sobre{
+    display: flex;
+}
+
+.somos-conteudo{
+    display: flex;
+}
+
+.box-contato{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color:#AAC089;
+    text-align: center;
+    padding: 50px;
+}
